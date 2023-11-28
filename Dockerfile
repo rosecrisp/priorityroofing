@@ -1,9 +1,15 @@
-FROM node:16-alpine
-RUN mkdir -p /app
+#Stage 1
+FROM node:16-alpine as builder
 WORKDIR /app
-COPY . .
-RUN export NODE_OPTIONS=–openssl-legacy-provider
+COPY package*.json .
+COPY yarn*.lock .
 RUN yarn install
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
+COPY . .
+RUN export NODE_OPTIONS=–openssl-legacy-provider && yarn build
+
+#Stage 2
+FROM nginx:1.19.0
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY --from=builder /app/build .
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
