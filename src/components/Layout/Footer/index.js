@@ -22,8 +22,11 @@ const Footer = (props) => {
                                 <p>Sedut perspiciatis unde omnis iste natus error sitlutem acc usantium doloremque denounce with illo inventore veritatis</p>
                             </div>
                             <ul className="footer-social md-mb-30">
+                        
                                 <li>
-                                    <Link to="#"><i className="fa fa-facebook"></i></Link>
+                                    <a href="https://m.facebook.com/priorityroofingnc" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-facebook"></i>
+                                    </a>
                                 </li>
                                 <li>
                                     <Link to="#"><i className="fa fa-twitter"></i></Link>

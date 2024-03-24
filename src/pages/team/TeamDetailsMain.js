@@ -36,9 +36,9 @@ const TeamDetailsMain = () => {
                                     </ul>
                                     <ul className="social-info">
                                         <li>
-                                            <Link href="#" as="#">
-                                                <a><i className="fa fa-facebook-f"></i></a>
-                                            </Link>
+                                            <a href="https://m.facebook.com/priorityroofingnc" target="_blank" rel="noopener noreferrer">
+                                                <i className="fa fa-facebook"></i>
+                                            </a>
                                         </li>
                                         <li>
                                             <Link href="#" as="#">

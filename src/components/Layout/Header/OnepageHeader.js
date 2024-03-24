@@ -79,8 +79,10 @@ const OnepageHeader = (props) => {
 								<div className="toolbar-sl-share">
 									<ul className="social">
 										<li>
-											<a href="#"><i className="fa fa-facebook-f"></i></a>
-										</li>
+											<a href="https://m.facebook.com/priorityroofingnc" target="_blank" rel="noopener noreferrer">
+												<i className="fa fa-facebook"></i>
+											</a>
+									   </li>
 										<li>
 											<a href="#"><i className="fa fa-twitter"></i></a>
 										</li>

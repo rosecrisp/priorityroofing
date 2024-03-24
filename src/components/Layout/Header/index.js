@@ -75,9 +75,21 @@ const Header = (props) => {
 								<div className="toolbar-sl-share">
 									<ul className="social">
 										<li>
-											<a href="#"><i className="fa fa-facebook-f"></i></a>
+											<a href="https://facebook.com/priorityroofingnc" target="_blank" rel="noopener noreferrer">
+												<i className="fa fa-facebook"></i>
+											</a>
 										</li>
 										<li>
+											<a href="https://www.bbb.org/us/nc/chapel-hill/profile/roofing-contractors/priority-roofing-and-exteriors-0593-90330896" target="_blank" rel="noopener noreferrer">
+											<i className="fa fa-bbb">BBB</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.yelp.com/biz/priority-roofing-and-exteriors-chapel-hill" target="_blank" rel="noopener noreferrer">
+												<i className="fa fa-yelp"></i>
+											</a>
+										</li>
+										{/* <li>
 											<a href="#"><i className="fa fa-twitter"></i></a>
 										</li>
 										<li>
@@ -85,7 +97,7 @@ const Header = (props) => {
 										</li>
 										<li>
 											<a href="#"><i className="fa fa-instagram"></i></a>
-										</li>
+										</li> */}
 									</ul>
 								</div>
 							</div>

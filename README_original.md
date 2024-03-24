@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # priorityroofing
-=======
 # Getting Started with Braintech – Technology & IT Solutions React Template
 
 ## Available Scripts
@@ -8,6 +6,9 @@
 After aownloading the project, install all dependencies.
 
 ### `yarn install`
+
+### error with using legacy node.js (code: 'ERR_OSSL_EVP_UNSUPPORTED') so do the following
+export NODE_OPTIONS=--openssl-legacy-provider
 
 After completing installation. In the project directory, you can run:
 
@@ -74,4 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
->>>>>>> 04186e6 (seed repository)
